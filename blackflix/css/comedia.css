@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(65, 63, 63);
+    
+}
+
+
+
+
+h2{
+    font-family: 'Bebas Neue', ;
+    font-size: 28px;
+    padding: 0 10px;
+    margin: 10px;
+    color: #E50914;
+    
+    
+   
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+.container_nav{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+    background-color: black;
+    
+ }
+ 
+
+ 
+ .navbar{
+     display: flex;
+     justify-content: space-around;
+     padding: 0 10%;
+     flex-wrap: wrap;
+     font-weight: bold;
+  
+ }
+ .navbar_itens{
+     color: #FFF;
+     transition: 300ms;
+     padding: 1em;
+
+ }
+ .navbar_itens:hover{
+     color: #E50914;
+     text-decoration: underline;
+     
+ }
+
+
+/* FILMES */
+
+.container{
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.row-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.filmes{
+    padding-top: 2em;
+    margin: 0 4em;
+
+
+}
+
+ img{
+    width: 200px;
+    border-radius: 5%;
+
+}
+.btn{
+    align-items: center;
+    padding-top: 1.25em;
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    border: none;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    padding: .75em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Bebas Neue' ;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0));
+    
+}
+button > a{
+    color: black;
+    padding: .75em;
+}
+
+footer .navbar_{
+    justify-content: center;
+}
+
+footer .navbar{
+    background-color: rgba(17, 17, 17, 0.747);
+    height: 15%;
+    padding: 2em 2em .45em;
+    
+}
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.233);
+    
+}
+
+.nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.copy{
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+
+
+.comedia{
+    color: #E50914;
+    text-decoration: underline;
+}
+.comedia:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+ 
